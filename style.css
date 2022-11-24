@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h3, p {
+    margin-top: 5px;
+}
+header {
+    background-color: rgb(9, 58, 99);
+    color: white;
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+header span {
+    color: aquamarine;
+}
+header h1 {
+    font-size: 50px;
+}
+header a {
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
+.card img {
+    height: 200px;
+    width: 300px;
+}
+.card {
+    margin: 10px 5px 5px 5px ;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.274);
+}
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#search {
+    height: 35px;
+    width: 40%;
+    margin-right: 3px;
+}
+ion-icon {
+    font-size: 20px;
+}
+.search-btn {
+    background: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+.search-btn:hover {
+    background: rgb(102, 211, 174);
+    cursor: pointer;
+}
+.ava {
+    font-size: 30px;
+}
+.ava ion-icon {
+    font-size: 40px;
+}
